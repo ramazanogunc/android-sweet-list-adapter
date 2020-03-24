@@ -20,6 +20,7 @@ SweetListAdapter</*class type*/> listAdapter = new SweetListAdapter<>(/*context*
 listAdapter.setItemView(new ISweetSetItemView</*class type*/>() {
     @Override
     public void setItemView(View view, /*class type*/ item) {
+        //example
         TextView tw =  view.findViewById(R.id.tw);
         TextView tw2 =  view.findViewById(R.id.tw2);
         tw.setText(""+item);
