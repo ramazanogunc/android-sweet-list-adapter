@@ -15,7 +15,7 @@ implementation 'com.github.ramazanogunc:android-sweet-list-adapter:6eb65fd1e6'
 ```
 Java code
 ```
-SweetListAdapter</*class type*/> listAdapter = new SweetListAdapter<>(this,R.layout.item,integerList);
+SweetListAdapter</*class type*/> listAdapter = new SweetListAdapter<>(/*context*/,/*item layout resource*/,/*List*/);
 
 listAdapter.setItemView(new ISweetSetItemView</*class type*/>() {
     @Override
