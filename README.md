@@ -11,7 +11,7 @@ allprojects {
 ```
 Add module dependecy 
 ```
-implementation 'com.github.ramazanogunc:android-sweet-list-adapter:6eb65fd1e6'
+implementation 'com.github.ramazanogunc:android-sweet-list-adapter:1.0.0'
 ```
 Java code
 ```
